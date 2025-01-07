@@ -1,0 +1,126 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e6D6C8;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(81, 81, 81);
+}
+
+h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* 導覽列樣式 */
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly; /* 等距分佈 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.nav-item {
+    flex: 3; /* 每個項目分配相等的空間 */
+    text-align: center; /* 確保內容居中 */
+}
+
+.nav-link {
+    display: block;
+    color: rgb(144, 76, 76);
+    text-align: center;
+    width: 100px;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background-color: #e6D6C8;
+    color: #000000;
+}
+
+/* 下拉選單樣式 */
+.container {
+    width: 200px;
+    margin: 0;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: rgb(144, 76, 76);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #e3c3c3;
+    color: #000000;
+}
+
+/* 主要區域樣式 */
+/* 主要區域樣式 */
+iframe {
+    border: none; /* 去掉影片框線 */
+    border-radius: 8px; /* 增加影片的圓角效果 */
+}
+
+#main1 h3 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#main1 .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#main1 iframe {
+    width: 100%;
+    max-width: 600px; /* 限制影片最大寬度 */
+    margin: 0; /* 移除 margin，使影片靠左 */
+    display: block;
+}
+
+/* 唯讀區域樣式 */
+#container {
+    width: 200px; /* 設定寬度 */
+    padding: 20px; /* 內距 */
+    background-color: #ffffff;
+}
+
+#container1 {
+    padding: 70px; /* 內距 */
+    background-color: #e6D6C8;
+}
+
+#only {
+    position: relative;
+    top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
